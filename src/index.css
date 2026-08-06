@@ -1,0 +1,141 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.font-serif {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Geometric Balance Theme Colors */
+.bg-geo-light {
+  background-color: #F4F4F1;
+  color: #1A1A1A;
+}
+
+.bg-geo-dark {
+  background-color: #121212;
+  color: #F4F4F1;
+}
+
+/* Geometric Shadow Effects */
+.geo-shadow-light {
+  background-color: #FFFFFF;
+  border: 2px solid #1A1A1A;
+  box-shadow: 4px 4px 0px #1A1A1A;
+  transition: all 0.2s ease;
+}
+
+.geo-shadow-light:hover {
+  box-shadow: 6px 6px 0px #3B82F6;
+  border-color: #1A1A1A;
+}
+
+.geo-shadow-dark {
+  background-color: #1A1A1A;
+  border: 2px solid #3d3d3d;
+  box-shadow: 4px 4px 0px #3B82F6;
+  transition: all 0.2s ease;
+}
+
+.geo-shadow-dark:hover {
+  box-shadow: 6px 6px 0px #60A5FA;
+  border-color: #60A5FA;
+}
+
+/* Geometric Primary Button */
+.btn-geo-primary {
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  border: 2px solid #1A1A1A;
+  box-shadow: 3px 3px 0px #3B82F6;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
+}
+
+.btn-geo-primary:hover {
+  background-color: #3B82F6;
+  color: #FFFFFF;
+  box-shadow: 5px 5px 0px #1A1A1A;
+  transform: translate(-1px, -1px);
+}
+
+.dark .btn-geo-primary {
+  background-color: #3B82F6;
+  color: #FFFFFF;
+  border: 2px solid #60A5FA;
+  box-shadow: 3px 3px 0px #1A1A1A;
+}
+
+.dark .btn-geo-primary:hover {
+  background-color: #2563EB;
+  box-shadow: 5px 5px 0px #60A5FA;
+}
+
+/* Geometric Secondary Button */
+.btn-geo-secondary {
+  background-color: #FFFFFF;
+  color: #1A1A1A;
+  border: 2px solid #1A1A1A;
+  box-shadow: 3px 3px 0px #1A1A1A;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.btn-geo-secondary:hover {
+  background-color: #F4F4F1;
+  box-shadow: 4px 4px 0px #3B82F6;
+}
+
+.dark .btn-geo-secondary {
+  background-color: #242424;
+  color: #F4F4F1;
+  border: 2px solid #444444;
+  box-shadow: 3px 3px 0px #3B82F6;
+}
+
+.dark .btn-geo-secondary:hover {
+  background-color: #2e2e2e;
+  border-color: #60A5FA;
+}
+
+/* Tag Pill */
+.geo-tag {
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  padding: 3px 8px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+/* Print Styles */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-resume, #printable-resume * {
+    visibility: visible;
+  }
+  #printable-resume {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: white !important;
+    color: black !important;
+  }
+}
+
