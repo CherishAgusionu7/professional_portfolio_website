@@ -110,7 +110,7 @@ export const Contact: React.FC<ContactProps> = ({ darkMode }) => {
                 </div>
 
                 {/* Location */}
-                <div className="flex items-center gap-3 p-3 border-2 border-[#1A1A1A] dark:border-[#3d3d3d] bg-[#1A1A1A] dark:bg-[#f4f4f1]">
+                <div className="flex items-center gap-3 p-3 border-2 border-[#1A1A1A] dark:border-[#3d3d3d] bg-[#1A1A1A] dark:bg-[#121212]">
                   <MapPin className="w-4 h-4 text-[#3B82F6]" />
                   <div>
                     <p className="text-[10px] uppercase font-mono font-bold text-[#3B82F6]">Location</p>
