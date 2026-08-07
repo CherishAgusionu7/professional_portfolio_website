@@ -14,7 +14,7 @@ export const personalInfo = {
     {
       title: "Who I Am",
       icon: "User",
-      description: "A Senior BCIS student at the University of North Texas (graduating Dec 2026). I bridge the gap between business operations and modern software engineering."
+      description: "I'm a Senior studying Business Computer Information Systems at the University of North Texas (graduating Dec 2026). I specialize in bridging the gap between business needs and technical design, making sure that my engineering choices directly support the organization's goals."
     },
     {
       title: "What I Love",
@@ -22,9 +22,9 @@ export const personalInfo = {
       description: "Engineering interactive front-end applications, integrating AI APIs, building responsive layouts, and automating business workflows with clean code."
     },
     {
-      title: "Sunlight Side",
+      title: "Highlighted Strengths",
       icon: "Sparkles",
-      description: "Analytical problem-solver recognized for attention to detail, quick adaptability, systematic debugging, and a dedicated passion for continuous learning."
+      description: "Adaptable Engineer focused on efficient problem-solving, thorough debugging, and continuous technical growth."
     }
   ]
 };

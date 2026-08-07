@@ -26,7 +26,7 @@ export const About: React.FC<AboutProps> = ({ darkMode }) => {
           <p className={`max-w-xl text-xs sm:text-sm font-mono ${
             darkMode ? 'text-[#a0a0a0]' : 'text-[#555555]'
           }`}>
-            Combining technical computer information systems expertise with an eye for clean UI design and process automation.
+            Proficient in combining technical computer information systems expertise with an eye for clean UI design and process automation.
           </p>
         </div>
 
