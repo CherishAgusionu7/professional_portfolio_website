@@ -19,7 +19,7 @@ export const personalInfo = {
     {
       title: "What I Love",
       icon: "Code",
-      description: "Engineering interactive front-end applications, integrating AI APIs, building responsive layouts, and automating business workflows with clean code."
+      description: "I love learning. Technology evolves every day, and that's what excites me most. I enjoy challenging myself with new frameworks, exploring artificial intelligence, improving my programming skills, and building projects that push me beyond the classroom."
     },
     {
       title: "Outside of Coding",
