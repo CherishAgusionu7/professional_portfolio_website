@@ -22,9 +22,9 @@ export const personalInfo = {
       description: "Engineering interactive front-end applications, integrating AI APIs, building responsive layouts, and automating business workflows with clean code."
     },
     {
-      title: "Highlighted Strengths",
+      title: "Outside of Coding",
       icon: "Sparkles",
-      description: "Adaptable Engineer focused on efficient problem-solving, thorough debugging, and continuous technical growth."
+      description: "Beyond software development, my Christian faith inspires me to serve others, lead with integrity, and pursue excellence in everything I do. I also enjoy volunteering, mentoring youth, and exploring new technologies."
     }
   ]
 };
