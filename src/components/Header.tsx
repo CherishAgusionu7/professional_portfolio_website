@@ -33,7 +33,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode, onOpenRes
               ? 'bg-[#3B82F6] text-white' 
               : 'bg-[#1A1A1A] text-white'
           }`}>
-            SR
+            CA
           </div>
           <div>
             <span className={`font-mono text-lg sm:text-xl font-bold tracking-tight block leading-none ${
