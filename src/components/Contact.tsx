@@ -79,7 +79,7 @@ export const Contact: React.FC<ContactProps> = ({ darkMode }) => {
               <div className="space-y-3 pt-2 border-t-2 border-[#1A1A1A]/20 dark:border-[#3d3d3d] text-xs">
                 
                 {/* Email */}
-                <div className="flex items-center justify-between gap-2 p-3 border-2 border-[#1A1A1A] dark:border-[#3d3d3d] bg-[#F4F4F1] dark:bg-[#121212]">
+                <div className="flex items-center justify-between gap-2 p-3 border-2 border-[#1A1A1A] dark:border-[#3d3d3d] bg-[#1A1A1A] dark:bg-[#121212]">
                   <div className="flex items-center gap-3">
                     <Mail className="w-4 h-4 text-[#3B82F6]" />
                     <div>
