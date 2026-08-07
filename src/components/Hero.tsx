@@ -24,7 +24,7 @@ export const Hero: React.FC<HeroProps> = ({ darkMode, onOpenResume }) => {
             }`}>
               <span className="w-2 h-2 rounded-full bg-[#3B82F6] animate-pulse"></span>
               <GraduationCap className="w-3.5 h-3.5 text-[#3B82F6]" />
-              <span className="uppercase">Senior BCIS @ UNT • Graduating Dec 2026</span>
+              <span className="uppercase">BCIS Senior @ UNT • Graduating Dec 2026</span>
             </div>
 
             {/* Main Title */}
