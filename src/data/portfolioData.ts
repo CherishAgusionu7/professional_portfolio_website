@@ -34,13 +34,13 @@ export const projectsData: Project[] = [
     id: "fetch-charity-water",
     title: "Fetch – Educational Browser Game",
     subtitle: "Interactive Charity: Water Game Prototype",
-    description: "Engineered an interactive browser game featuring collision detection, state management, timers, score tracking, checkpoints, and win/loss logic using vanilla JavaScript. Includes score penalties for bad drops, reset mechanics, and celebratory confetti animations.",
-    tools: ["HTML5", "CSS3", "JavaScript", "LocalStorage", "Canvas API"],
+    description: "Engineered an interactive browser game featuring collision detection, state management, timers, score tracking, checkpoints, and win/loss logic using vanilla JavaScript. Includes score penalties for bad drops and reset mechanics.",
+    tools: ["HTML5", "CSS3", "JavaScript", "LocalStorage"],
     highlights: [
-      "Engineered collision detection, timers, and state tracking in vanilla JS",
-      "Persisted player scores and progress across sessions using LocalStorage",
-      "Added score obstacles, game reset controls, and confetti celebrations",
-      "Aligned layout with charity: water brand guidelines for desktop & mobile"
+      "Engineered an interactive browser game featuring collision detection, state management, timers, score tracking, checkpoints, and win/loss logic using vanilla JavaScript",
+      "Developed responsive layouts with HTML and CSS to support desktop and mobile gameplay",
+      "Implemented local storage to persist player scores and progress across sessions",
+      "Debugged and optimized game logic through iterative testing and user feedback"
     ],
     liveUrl: "https://cherishagusionu7.github.io/Fetch/",
     githubUrl: "https://github.com/CherishAgusionu7/Fetch",
@@ -53,36 +53,18 @@ export const projectsData: Project[] = [
     title: "L'Oréal Product-Aware Routine Builder",
     subtitle: "AI-Powered Skincare Advisor Chatbot",
     description: "Developed an AI-powered web app using AI APIs to generate personalized skincare routines from real-world L'Oréal product data (CeraVe, Garnier, Lancôme, L'Oréal Paris). Features real-time search, category filters, secured worker requests, and RTL language support.",
-    tools: ["JavaScript", "HTML/CSS", "OpenAI API", "Cloudflare Workers", "LocalStorage", "RTL Layout"],
+    tools: ["JavaScript", "HTML/CSS", "OpenAI API", "Cloudflare Workers", "LocalStorage"],
     highlights: [
-      "Generated personalized routines using structured product JSON data and AI prompts",
-      "Secured API communication and key credentials through Cloudflare Workers",
-      "Implemented real-time product search, web search integration, and RTL support",
-      "Maintained contextual chat history and user selection memory in LocalStorage"
+      "Developed an AI-powered web app using the OpenAI API to generate personalized recommendations from real-world product data",
+      "Built dynamic JavaScript features for product search, filtering, selection, and real-time UI updates",
+      "Secured API requests with Cloudflare Workers, protecting sensitive API keys and backend communication",
+      "Implemented localStorage and conversational memory to preserve user data and support contextual AI interactions"
     ],
     liveUrl: "https://cherishagusionu7.github.io/09-prj-loreal-routine-builder/",
     githubUrl: "https://github.com/CherishAgusionu7/09-prj-loreal-routine-builder",
     demoType: "loreal_routine",
     badge: "L'Oréal AI",
     accentColor: "#ff003b"
-  },
-  {
-    id: "nasa-space-explorer",
-    title: "NASA Space Explorer App",
-    subtitle: "Real-Time Astronomy Gallery & Facts Engine",
-    description: "Connects to NASA's public Astronomy Picture of the Day (APOD) API to showcase space photos and videos based on user-selected date ranges. Features enlarged media modal dialogs, APOD video entry handling, hover zoom effects, and random space facts.",
-    tools: ["JavaScript", "NASA APOD API", "Responsive CSS", "Modal UI", "DevTools"],
-    highlights: [
-      "Connected to NASA APOD API with async/await fetch calls across custom date ranges",
-      "Built custom modal views for full-res images, video embeds, and NASA explanations",
-      "Handled YouTube video entries, hover zoom scaling, and 'Did You Know?' facts",
-      "Applied official NASA branding colors and responsive gallery layout"
-    ],
-    liveUrl: "https://cherishagusionu7.github.io/07-nasa-space-explorer/",
-    githubUrl: "https://github.com/CherishAgusionu7/07-nasa-space-explorer",
-    demoType: "nasa_explorer",
-    badge: "NASA API",
-    accentColor: "#38bdf8"
   }
 ];
 
