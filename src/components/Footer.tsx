@@ -24,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({ darkMode }) => {
             : 'bg-white border-[#1A1A1A] text-[#1A1A1A] shadow-[2px_2px_0px_#1A1A1A]'
         }`}>
           <span className="w-2 h-2 bg-[#3B82F6]"></span>
-          <span>SYSTEM.PORTFOLIO // <strong>{personalInfo.name}</strong> • © 2026</span>
+          <span>PROFESSIONAL.PORTFOLIO // <strong>{personalInfo.name}</strong> • © 2026</span>
         </div>
 
         {/* Social Icons & Back to top */}
