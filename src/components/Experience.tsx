@@ -26,7 +26,7 @@ export const Experience: React.FC<ExperienceProps> = ({ darkMode }) => {
           <p className={`max-w-xl text-xs sm:text-sm font-mono ${
             darkMode ? 'text-[#a0a0a0]' : 'text-[#555555]'
           }`}>
-            Professional work history.
+            Professional work history, education, and certifications.
           </p>
         </div>
 
