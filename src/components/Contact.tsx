@@ -72,7 +72,7 @@ export const Contact: React.FC<ContactProps> = ({ darkMode }) => {
                   Cherish Agusionu
                 </h3>
                 <p className={`text-xs ${darkMode ? 'text-[#c8c8c8]' : 'text-[#444444]'}`}>
-                  Ready to apply my computer information systems & software engineering skills to your project.
+                  Please feel free to reach out if you have any questions or opportunities!
                 </p>
               </div>
 
