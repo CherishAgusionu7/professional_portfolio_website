@@ -14,7 +14,7 @@ export const personalInfo = {
     {
       title: "Who I Am",
       icon: "User",
-      description: "I'm a Senior studying Business Computer Information Systems at the University of North Texas (graduating Dec 2026). I specialize in bridging the gap between business operations and engineering to build software that drives user and company value."
+      description: "I'm a Senior studying Business Computer Information Systems at the University of North Texas. I specialize in bridging the gap between business operations and engineering to build software that drives user and company value."
     },
     {
       title: "What I Love",
