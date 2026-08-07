@@ -47,7 +47,7 @@ export const Hero: React.FC<HeroProps> = ({ darkMode, onOpenResume }) => {
                 href="#projects"
                 className="btn-geo-primary inline-flex items-center gap-2 px-6 py-3 text-xs"
               >
-                <span>Check Out Some of My Work</span>
+                <span>Check Out Some of My Projects</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
 
