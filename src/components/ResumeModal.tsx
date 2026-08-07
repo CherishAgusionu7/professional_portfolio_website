@@ -13,7 +13,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose, darkM
 
   const handlePrint = () => {
   window.open(
-    `${import.meta.env.BASE_URL}Cherish_Agusionu_ResumeOff.pdf`,
+    `${import.meta.env.BASE_URL}Cherish_Agusionu_ResumeOfficial.pdf`,
     "_blank"
   );
 };
