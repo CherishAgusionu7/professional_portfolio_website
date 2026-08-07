@@ -12,8 +12,51 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose, darkM
   if (!isOpen) return null;
 
   const handlePrint = () => {
-    window.print();
-  };
+  const printable = document.getElementById("printable-resume")?.innerHTML;
+
+  if (!printable) return;
+
+  const printWindow = window.open("", "_blank");
+
+  if (!printWindow) return;
+
+  printWindow.document.write(`
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Cherish Agusionu Resume</title>
+        <style>
+          body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+            color: #000;
+          }
+
+          h1, h2, h3 {
+            margin-top: 0;
+          }
+
+          a {
+            color: inherit;
+            text-decoration: none;
+          }
+
+          * {
+            box-sizing: border-box;
+          }
+        </style>
+      </head>
+      <body>
+        ${printable}
+      </body>
+    </html>
+  `);
+
+  printWindow.document.close();
+  printWindow.focus();
+  printWindow.print();
+  printWindow.close();
+};
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md overflow-y-auto">
